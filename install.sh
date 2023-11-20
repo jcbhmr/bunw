@@ -4,7 +4,7 @@ set -e
 if [ -n "$BUNW_DL_BASE_URL" ]; then
   base_url="$BUNW_DL_BASE_URL"
 else
-  base_url='https://github.com/jcbhmr/bunw/raw/bunw/main/'
+  base_url='https://github.com/jcbhmr/bunw/raw/main/'
 fi
 
 # https://gist.github.com/lukechilds/a83e1d7127b78fef38c2914c4ececc3c
