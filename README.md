@@ -21,7 +21,6 @@
 
 ![curl](https://img.shields.io/static/v1?style=for-the-badge&message=curl&color=073551&logo=curl&logoColor=FFFFFF&label=)
 ![sh](https://img.shields.io/static/v1?style=for-the-badge&message=sh&color=4EAA25&logo=GNU+Bash&logoColor=FFFFFF&label=)
-![PowerShell](https://img.shields.io/static/v1?style=for-the-badge&message=PowerShell&color=5391FE&logo=PowerShell&logoColor=FFFFFF&label=)
 
 [🛑 Bun doesn't support Windows yet. 😢](https://github.com/oven-sh/bun/issues/43)
 
@@ -45,7 +44,6 @@ installation guide].
 ![Terminal](https://img.shields.io/static/v1?style=for-the-badge&message=Terminal&color=4D4D4D&logo=Windows+Terminal&logoColor=FFFFFF&label=)
 ![Linux](https://img.shields.io/static/v1?style=for-the-badge&message=Linux&color=222222&logo=Linux&logoColor=FCC624&label=)
 ![macOS](https://img.shields.io/static/v1?style=for-the-badge&message=macOS&color=000000&logo=macOS&logoColor=FFFFFF&label=)
-![Windows](https://img.shields.io/static/v1?style=for-the-badge&message=Windows&color=0078D4&logo=Windows&logoColor=FFFFFF&label=)
 
 Just use `./bunw` as though it were the true `bun` binary! Anyone who clones
 your repo won't need to install deno themselves; the `./bunw` will auto-install
@@ -94,7 +92,6 @@ It's better to use a wrapper.
 
 ![Bash](https://img.shields.io/static/v1?style=for-the-badge&message=Bash&color=FCAF58&logo=GNU+Bash&logoColor=000000&label=)
 ![sh](https://img.shields.io/static/v1?style=for-the-badge&message=sh&color=4EAA25&logo=GNU+Bash&logoColor=FFFFFF&label=)
-![cmd](https://img.shields.io/static/v1?style=for-the-badge&message=cmd&color=000000&logo=GNU+Bash&logoColor=FFFFFF&label=)
 
 Make sure that any changes are roughly the same in the `./bunw.bat` and `./bunw`
 wrappers as well as the `install.ps1` and `install.sh` installers.
