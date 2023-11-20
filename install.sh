@@ -14,7 +14,7 @@ get_latest_release() {
     sed -E 's/.*"([^"]+)".*/\1/'                                    # Pluck JSON value
 }
 
-if command -v curl 2> /dev/null; then
+if command -v curl > /dev/null 2>&1; then
   curl -fsSL "${base_url}bunw" -o ./bunw
 else
   wget "${base_url}bunw" -O ./bunw
