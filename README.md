@@ -23,12 +23,10 @@
 ![sh](https://img.shields.io/static/v1?style=for-the-badge&message=sh&color=4EAA25&logo=GNU+Bash&logoColor=FFFFFF&label=)
 ![PowerShell](https://img.shields.io/static/v1?style=for-the-badge&message=PowerShell&color=5391FE&logo=PowerShell&logoColor=FFFFFF&label=)
 
+[🛑 Bun doesn't support Windows yet. 😢](https://github.com/oven-sh/bun/issues/43)
+
 ```sh
 curl -fsSL https://github.com/jcbhmr/bunw/raw/bunw/main/install.sh | sh
-```
-
-```ps1
-irm https://github.com/jcbhmr/bunw/raw/bunw/main/install.ps1 | iex
 ```
 
 **If you want to install a specific version of Deno** instead of the latest
@@ -37,10 +35,6 @@ _version_ (`1.38.0`), not the _tag name_ (`v1.38.0`).
 
 ```sh
 curl -fsSL https://github.com/jcbhmr/bunw/raw/bunw/main/install.sh | sh -s 1.38.0
-```
-
-```ps1
-v="1.38.0"; irm https://github.com/jcbhmr/bunw/raw/bunw/main/install.ps1 | iex
 ```
 
 🛑 If you're looking to install Bun globally [check out the Bun website for an
