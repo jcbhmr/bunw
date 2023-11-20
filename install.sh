@@ -29,7 +29,7 @@ else
   bun_version=$(get_latest_release oven-sh/bun | cut -c 6-)
 fi
 
-sed -i .bak "s/%__BUN_VERSION__%/$bun_version/g" ./bunw.bat
-sed -i .bak "s/\$__BUN_VERSION__/$bun_version/g" ./bunw
+sed -i.bak "s/%__BUN_VERSION__%/$bun_version/g" ./bunw.bat
+sed -i.bak "s/\$__BUN_VERSION__/$bun_version/g" ./bunw
 
 echo "Created wrapper! You can use ./bunw to launch Bun."
