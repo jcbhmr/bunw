@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+bun_version="$__BUN_VERSION__"
+dir=$(CDPATH='' cd -- "$(dirname -- "$0")" && pwd)
+if [ ! -d "$dir/.bun" ]; then
+  if ! o=$(curl -fsSL https://bun.sh/install | BUN_INSTALL="$dir/.bun" bash -s "bun-v$bun_version" 2>&1); then
+    echo "$o" >&2
+    exit 1
+  fi
+fi
+exec "$dir/.bun/bin/bun" "$@"
