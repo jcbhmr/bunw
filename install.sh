@@ -28,5 +28,6 @@ else
 fi
 
 sed -i.bak "s/\$__BUN_VERSION__/$bun_version/g" ./bunw
+rm -f ./bunw.bak
 
 echo "Created wrapper! You can use ./bunw to launch Bun."
