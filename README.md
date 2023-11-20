@@ -25,7 +25,7 @@
 [🛑 Bun doesn't support Windows yet. 😢](https://github.com/oven-sh/bun/issues/43)
 
 ```sh
-curl -fsSL https://github.com/jcbhmr/bunw/raw/bunw/main/install.sh | sh
+curl -fsSL https://github.com/jcbhmr/bunw/raw/main/install.sh | sh
 ```
 
 **If you want to install a specific version of Deno** instead of the latest
@@ -33,7 +33,7 @@ version you can use an extra argument to choose a specific version. This is the
 _version_ (`1.38.0`), not the _tag name_ (`v1.38.0`).
 
 ```sh
-curl -fsSL https://github.com/jcbhmr/bunw/raw/bunw/main/install.sh | sh -s 1.38.0
+curl -fsSL https://github.com/jcbhmr/bunw/raw/main/install.sh | sh -s 1.38.0
 ```
 
 🛑 If you're looking to install Bun globally [check out the Bun website for an
