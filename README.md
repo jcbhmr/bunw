@@ -1,6 +1,6 @@
 # Bun wrapper
 
-🦕 Like [`./gradlew`] but for [Bun]
+🧅 Like [`./gradlew`] but for [Bun]
 
 <table align=center><td>
 
