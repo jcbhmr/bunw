@@ -17,7 +17,7 @@ get_latest_release() {
 if command -v curl > /dev/null 2>&1; then
   curl -fsSL "${base_url}bunw" -o ./bunw
 else
-  wget "${base_url}bunw" -O ./bunw
+  wget -q "${base_url}bunw" -O ./bunw
 fi
 chmod +x ./bunw
 
