@@ -72,12 +72,15 @@ it manually.
 Sometimes (not often, but sometimes), you want to have an auto-install wrapper
 around a project-critical binary. In a nutshell you gain the following benefits:
 
-- Standardizes a project on a given Bun version, leading to more reliable and
-  robust builds.
+- Standardizes a project on a given Bun version for more reliable and robust
+  builds.
 
-- Provisioning a new Bun version to different users and execution environment
-  (e.g. IDEs or Continuous Integration servers) is as simple as changing the
-  Wrapper definition.
+- Provisioning the Bun version for different users is done with a simple Wrapper
+  definition change.
+
+- Provisioning the Bun version for different execution environments (e.g., IDEs
+  or Continuous Integration servers) is done with a simple Wrapper definition
+  change.
 
 For instance, GitHub Actions can be written using Bun, but how do you make sure
 `bun` is available on the GitHub Action runner? You can use `./bunw` as a proxy!
@@ -93,8 +96,8 @@ It's better to use a wrapper.
 ![Bash](https://img.shields.io/static/v1?style=for-the-badge&message=Bash&color=FCAF58&logo=GNU+Bash&logoColor=000000&label=)
 ![sh](https://img.shields.io/static/v1?style=for-the-badge&message=sh&color=4EAA25&logo=GNU+Bash&logoColor=FFFFFF&label=)
 
-Make sure that any changes are roughly the same in the `./bunw.bat` and `./bunw`
-wrappers as well as the `install.ps1` and `install.sh` installers.
+Try to stick to POSIX `sh` so that it works with `curl | sh` and `#!/bin/sh`
+anywhere. That means using `[` instead of Bash's `[[` and such.
 
 <!-- prettier-ignore-start -->
 [Bun]: https://bun.sh/
