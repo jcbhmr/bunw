@@ -46,8 +46,8 @@ installation guide].
 ![macOS](https://img.shields.io/static/v1?style=for-the-badge&message=macOS&color=000000&logo=macOS&logoColor=FFFFFF&label=)
 
 Just use `./bunw` as though it were the true `bun` binary! Anyone who clones
-your repo won't need to install deno themselves; the `./bunw` will auto-install
-a local copy into the `.bun` folder.
+your repo won't need to install Bun themselves; the `./bunw` will auto-install a
+local copy into the `.bun` folder.
 
 ⚠️ Make sure you add `.bun` to your `.gitignore`! That's where `bun` will be
 installed to by the wrapper.
