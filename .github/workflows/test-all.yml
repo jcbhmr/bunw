@@ -7,14 +7,14 @@ on:
       - LICENSE
       - .gitignore
       - .github/**
-      - "!.github/workflows/test_all.yml"
+      - "!.github/workflows/test-all.yml"
   pull_request:
     paths-ignore:
       - README.md
       - LICENSE
       - .gitignore
       - .github/**
-      - "!.github/workflows/test_all.yml"
+      - "!.github/workflows/test-all.yml"
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
